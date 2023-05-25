@@ -1,0 +1,126 @@
+body {
+  background: #d3d3d300;
+}
+
+.example-square {
+  justify-content: center;
+  border: 1px solid red;
+  height: 100px;
+  width: 100px;
+}
+
+.figure {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.center-heading {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.center-padding {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.result-output {
+  display: none;
+}
+
+.output-result {
+  padding-left: 30px;
+}
+
+.rumus-persegi {
+  text-align: center; /* Untuk membuat teks berada di tengah */
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+.header-luas {
+  background: #2880b9;
+  border: 1px solid #2880b9;
+  color: white;
+  text-align: center;
+  padding: 35px 35px;
+}
+
+header {
+  background: #0093f5;
+  text-align: center;
+  padding: 35px 35px;
+}
+
+.title {
+  font-weight: bold;
+  color: white;
+}
+
+.subtitle {
+  font-weight: bold;
+  color: rgb(212, 187, 187);
+}
+
+.sisi-luas input {
+  width: 100%;
+}
+
+.card {
+  background-color: white;
+}
+
+.input-fullwidth {
+  width: calc(100% - 60px);
+  box-sizing: border-box; /* Untuk menghitung lebar input termasuk padding dan border */
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.button-hitung {
+  display: block;
+  margin: 0 auto; /* Untuk membuat tombol berada di tengah horisontal */
+  background-color: skyblue;
+  border-radius: 12px;
+  font-size: 12px;
+  padding: 15px 45px;
+}
+
+.button-reset {
+  display: block;
+  margin-left: auto;
+  right: 0;
+  background-color: yellow;
+  color: black;
+  font-size: 12px;
+  padding: 5px 15px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hitung-description {
+  border-top: 1px solid black;
+  padding-top: 30px;
+}
+
+.card-box {
+  border: 1px solid #2880b9;
+  border-top: none;
+  padding-bottom: 50px;
+}
+
+.formula-description {
+  padding-left: 30px;
+}
